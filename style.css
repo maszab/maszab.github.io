@@ -1,0 +1,186 @@
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 130px;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-top:80px;
+  box-sizing: border-box;
+  color: olive;
+  background: black;
+}
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 0;
+  height: 80px;
+  width:100%;
+  background: black;
+  z-index: 1;
+}
+
+.navItem {
+  color: olive;
+  font-size: 48px;
+  text-decoration: none;
+}
+
+.conti {
+  display:flex;
+}
+.bal {
+  width: 40%;
+}
+
+.jobb {
+  width: 60%;
+  
+}
+
+#header{
+  display: flex;
+  width: 800px;
+  height: 400px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+h1 {
+  text-align: left;
+  font-size: 32px;
+  height: 150px;
+  margin-bottom: 10px;
+  width: 60%;
+  padding-left: 22px;
+  font-family: 'Space Grotesk', sans-serif;
+  color: olive;
+  font-weight: lighter;
+}
+
+#name {
+  display: block;
+  font-size: 52px;
+}
+
+#firstText {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 1.6;
+  
+}
+
+#firstList {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+ul {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  line-height: 1.6;
+  font-size: 24px;
+}
+
+blockquote {
+  font-family: 'Space Grotesk', sans-serif;
+  color: olive;
+  background: #525252;
+  width: 100%;
+  height: 20%;
+  margin-left: 0;
+  font-size: 100px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.jel {
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  position: absolute;
+  top: -15px;
+  left: 0px;
+}
+
+h2 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 32px;
+  line-height: 2;
+  
+}
+
+h3{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+p{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  
+}
+
+h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+
+#notable {
+  margin-top: 180px;
+}
+
+#experience {
+  margin-top: 80px;
+}
+
+#formal {
+  margin-top: 40px;
+}
+
+#firstQuote {
+  margin-top: 60px;
+}
+
+#secondQuote{
+  margin-top: 300px;
+}
+
+#thirdQuote {
+  margin-top: 90px;
+  height: 30%;
+}
